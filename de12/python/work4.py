@@ -1,0 +1,12 @@
+name=input("名前を教えて下さい")
+waist=float(input("腹囲は？"))
+age=int(input("年齢は？"))
+
+print(name, "さんは腹囲", waist, "cmで年齢は",age, "才ですね。")
+
+
+if waist>=70 and age>=30:
+    print(name,"さん、運動しよう")
+else:
+    print(name,"さん、グッジョブ")
+
