@@ -734,5 +734,6 @@ img.alignleft{margin:0 7px 2px 0;}
 /*ここから自分で考えたCSS*/
 
 #center{
+text-align: center;
 	
 }
