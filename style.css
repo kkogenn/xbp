@@ -19,7 +19,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /*右上のやつ*/
 body{
 color:#000000;
-font-size:13px;
+font-size:30px;
 font-family:verdana,"ヒラギノ丸ゴ ProN W4","Hiragino Maru Gothic ProN","メイリオ","Meiryo","ＭＳ Ｐゴシック","MS PGothic",Sans-Serif;
 line-height:1.5;
 -webkit-text-size-adjust:100%;
@@ -736,4 +736,8 @@ img.alignleft{margin:0 7px 2px 0;}
 #center{
 text-align: center;
 	
+}
+
+#h1{
+font-size: 80%;
 }
