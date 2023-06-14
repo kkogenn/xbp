@@ -749,7 +749,7 @@ font-size: 100%;
 
 	/*ボックスの中(左上)にタイトル*/
 .box1{
-    margin:20px auto;
+	margin:20px auto;
     padding:2.7em 1em 1em;
     max-width:1000px;
     position:relative;
@@ -770,7 +770,3 @@ font-size: 100%;
     font-weight:bold;
     text-align:center;
 }
-
-.box3{
-	padding: auto;
-	}
