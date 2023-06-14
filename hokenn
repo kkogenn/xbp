@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+	<meta charset="UTF-8">
+	
+	<title>上田航玄　プロジェクトノート</title>
+	<link rel="stylesheet" href="/style.css">
+	<!--[if lt IE 9]>
+	<script src="js/html5.js"></script>
+	<script src="js/css3-mediaqueries.js"></script>
+	<![endif]-->
+	
+</head>
+
+<div class="center">
+<ol>
+
+	<br>
+	<div class="medachi"><li>プロジェクトノート</li></div>
+	
+	■は考えないといけないこと、疑問等<br>
+	●は具体的にやること<br>
+	→はやったこと<br>
+	<br>
+	</div>
+	<!--
+	<br>
+	<div class="h1"><li><u>アイディアのスケッチ</u></li><img src="images/projectsketch.png" alt="" width="40%"><br>作：みくもさん</div>
+	<br>
+	<div class="h1"><li><u>概要</u></li></div>
+	<br>
+	<div class="h1"><li><u>プロセスメモープロセス・必要なもの・ステップ（プロジェクトマネジメント）</u></li></div>
+	<br>
+	<div class="h1"><li><u>使用したもの（リンクも）</u></li></div>
+	<br>
+	<div class="h1"><li><u>紹介動画</u></li></div>
+	<br>
+
+-->
+
+	<div class="box1">
+		<span class="box2">アイディアのスケッチ</span></span><div id="left"><img src="images/projectsketch.png" alt="" width="35%"></div><br>作：みくもさん </div>
+	<div class="box1">
+		<span class="box2">概要</span></span>光センサーを反応させ、当事者が魔法を使っているかのような体験を与えるメディアノートを作る。<br>
+	<br>役割として、<br>１魔法のアニメーションを作る者、<br>２光センサーの反応によってエフェクトを表示させる機能を作るもの、<br>３光る雪だるまを作る者がある。
+</div>
+	<div class="box1">
+		<span class="box2">プロセスメモープロセス・必要なもの・ステップ<br>（プロジェクトマネジメント）</span></span>
+		<br>0612<br>
+		前回の続きで、光センサーが常に光を読み取りながら、画像の表示をしたりしなかったりをしたいのだが、一度Processingを実行するとQRコードの画像はずっとそのままである。光が消えても画像が非表示にならない。うまくいっていない。
+		<br><br>
+		道用先生に相談：ステップ1から完成品を作ろうとするのでなく、簡単なことをできるようにしてそれを繋げていった方がうまくいきそう。
+		というか、そもそも表示非表示にしなくてもよくて、小さい画像を光の値によって拡大縮小すれば良いのでは。<br>
+		ChatGPTに質問するにおいて、「リアルタイム」という言葉を使うとうまい回答が返ってきた。<br>
+		→結果、ChatGPTによるコードで完成してしまった。<br>
+		<a href="/de34/Arduinocode" target="_blank" >Arduino IDEのコード</a><br>
+		<a href="/de34/Proccesingcode" target="_blank" >Proccesingのコード</a>
+		</div>
+	<div class="box1">
+		<span class="box2">使用したもの（リンクも）</span></span>ここに内容</div>
+	<div class="box1">
+		<span class="box2">紹介動画</span></span>ここに内容</div>
+
+	
+
+	
+	
+	
+	
+	
+</ol>
+</div>
+
+<body>
+
+
+	
+
+		<p id="copyright">Copyright(c) 2016 ホームページサンプル株式会社 All Rights Reserved. Design by <a href="http://f-tpl.com" target="_blank" rel="nofollow">http://f-tpl.com</a></p><!-- ←クレジット表記を外す場合はシリアルキーが必要です http://f-tpl.com/credit/ -->
+
+	</div>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=yes, maximum-scale=1.0, minimum-scale=1.0">
+	<meta name="description" content="ホームページサンプル株式会社の取り組み - ホームページサンプル株式会社のサイトです">
+	<title>上田航玄　プロジェクトノート</title>
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="stylesheet" type="text/css" media="all" href="/style.css">
+	<!--[if lt IE 9]>
+	<script src="js/html5.js"></script>
+	<script src="js/css3-mediaqueries.js"></script>
+	<![endif]-->
+	<script src="js/jquery1.4.4.min.js"></script>
+	<script src="js/script.js"></script>
+</head>
+
+<div class="center">
+<ol>
+
+	<br>
+	<div class="medachi"><li>プロジェクトノート</li></div>
+	
+	■は考えないといけないこと、疑問等<br>
+	●は具体的にやること<br>
+	→はやったこと<br>
+	<br>
+	</div>
+	<!--
+	<br>
+	<div class="h1"><li><u>アイディアのスケッチ</u></li><img src="images/projectsketch.png" alt="" width="40%"><br>作：みくもさん</div>
+	<br>
+	<div class="h1"><li><u>概要</u></li></div>
+	<br>
+	<div class="h1"><li><u>プロセスメモープロセス・必要なもの・ステップ（プロジェクトマネジメント）</u></li></div>
+	<br>
+	<div class="h1"><li><u>使用したもの（リンクも）</u></li></div>
+	<br>
+	<div class="h1"><li><u>紹介動画</u></li></div>
+	<br>
+
+-->
+
+	<div class="box1">
+		<span class="box2">アイディアのスケッチ</span></span><div id="left"><img src="images/projectsketch.png" alt="" width="35%"></div><br>作：みくもさん </div>
+	<div class="box1">
+		<span class="box2">概要</span></span>光センサーを反応させ、当事者が魔法を使っているかのような体験を与えるメディアノートを作る。<br>
+	<br>役割として、<br>１魔法のアニメーションを作る者、<br>２光センサーの反応によってエフェクトを表示させる機能を作るもの、<br>３光る雪だるまを作る者がある。
+</div>
+	<div class="box1">
+		<span class="box2">プロセスメモープロセス・必要なもの・ステップ<br>（プロジェクトマネジメント）</span></span>
+		<br>0612<br>
+		前回の続きで、光センサーが常に光を読み取りながら、画像の表示をしたりしなかったりをしたいのだが、一度Processingを実行するとQRコードの画像はずっとそのままである。光が消えても画像が非表示にならない。うまくいっていない。
+		<br><br>
+		道用先生に相談：ステップ1から完成品を作ろうとするのでなく、簡単なことをできるようにしてそれを繋げていった方がうまくいきそう。
+		というか、そもそも表示非表示にしなくてもよくて、小さい画像を光の値によって拡大縮小すれば良いのでは。<br>
+		ChatGPTに質問するにおいて、「リアルタイム」という言葉を使うとうまい回答が返ってきた。<br>
+		→結果、ChatGPTによるコードで完成してしまった。<br>
+		<a href="/de34/Arduinocode" target="_blank" >Arduino IDEのコード</a><br>
+		<a href="/de34/Proccesingcode" target="_blank" >Proccesingのコード</a>
+		</div>
+	<div class="box1">
+		<span class="box2">使用したもの（リンクも）</span></span>ここに内容</div>
+	<div class="box1">
+		<span class="box2">紹介動画</span></span>ここに内容</div>
+
+	
+
+	
+	
+	
+	
+	
+</ol>
+</div>
+
+<body>
+
+
+	
+
+		<p id="copyright">Copyright(c) 2016 ホームページサンプル株式会社 All Rights Reserved. Design by <a href="http://f-tpl.com" target="_blank" rel="nofollow">http://f-tpl.com</a></p><!-- ←クレジット表記を外す場合はシリアルキーが必要です http://f-tpl.com/credit/ -->
+
+	</div>
+
+</body>
+</html>
