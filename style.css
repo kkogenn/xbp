@@ -747,9 +747,10 @@ font-size: 100%;
 	font-size: 140%;
 	}
 
-	/*ボックスの中(左上)にタイトル*/
+	/*ボックスの中(左上)にタイトル*//*これは一つの囲み全体を作っている*/
 .box1{
-	margin:20px auto;
+	
+	margin: 40px auto;
     padding:2.7em 1em 1em;
     max-width:1000px;
     position:relative;
@@ -758,11 +759,11 @@ font-size: 100%;
 
 /*タイトル部分*/
 .box2{
-	border-bottom: 2px solid #000000;
+	/*border-bottom: 2px solid #000000;これはタイトル部分を囲いにしたい場合に必要となる。*/
     position:absolute;
     top:0;
-    left: 1px;;
-    padding:7px;
+    left: 0;;
+    padding:0 7px;/*内容がタイトルに重なっていた原因として、0を書いていなかったため。*/
     width:98.5%; /*なぜか100％にするとタイトルがはみ出し不揃いに。古典的なやり方で揃えたためすっきりしない。*/
 	background-color: aliceblue;
 	color:#000000;
