@@ -757,7 +757,7 @@ font-size: 100%;
     border:2px solid #000000;
 }
 
-/*タイトル部分*/
+/*タイトル*/
 .box2{
 	/*border-bottom: 2px solid #000000;これはタイトル部分を囲いにしたい場合に必要となる。*/
     position:absolute;
