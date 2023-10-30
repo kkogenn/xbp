@@ -523,12 +523,12 @@ img.alignleft{margin:0 7px 2px 0;}
 	border:0;
 	}
   #mainNav li li:last-child{border:0;}
-	
+	/*↓↓↓これがメニューのタッチして表示される部分のところ*/
 	#mainNav li li a{
 	width:auto;
 	height:auto;
 	padding:10px;
-	font-size:39%;
+	font: size 80px;;
 	text-align:left;
 	border:0;
 	}
